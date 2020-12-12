@@ -1,0 +1,14 @@
+frames 100
+basename orbit
+
+push
+move 250 250 0
+rotate y 360 sun
+sphere 0 0 0 100
+push
+rotate y 360 earth
+sphere 200 0 0 25
+pop
+pop
+vary sun 0 99 0 1
+vary earth 0 99 0 2

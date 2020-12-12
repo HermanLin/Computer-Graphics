@@ -1,0 +1,41 @@
+#pretty? picture
+push
+move 
+250 350 0
+rotate
+x 30
+sphere
+0 0 0 100
+pop
+push
+move 
+180 200 30
+rotate
+z 90
+rotate
+x 90
+torus
+0 -50 0 15 75
+pop
+push
+move
+250 300 250
+rotate
+y 30
+box
+0 0 0 100 100 100
+pop
+push
+move
+300 300 200
+rotate
+z 60
+rotate
+x 30
+torus
+0 -150 0 35 75
+pop
+
+display
+save
+thisisart.png

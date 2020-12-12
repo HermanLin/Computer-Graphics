@@ -1,0 +1,39 @@
+//idk what this is
+
+//HANDLE
+push
+move 200 200 0
+rotate z -30
+rotate y -30
+rotate x -30
+box 0 0 0 25 100 25
+
+//JEWEL
+push
+move 10 -100 -15
+sphere 0 0 0 25
+pop
+
+//HILT
+push
+rotate y 90
+move 0 10 55
+box 0 0 0 25 25 80
+pop
+
+//BLADE
+push
+move 0 200 0
+box 0 0 0 25 200 25
+
+//TIP
+push
+move -5 0 0
+rotate z 45
+box 0 0 0 25 25 25
+pop
+pop
+pop
+
+display
+save svard.png

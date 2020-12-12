@@ -1,0 +1,70 @@
+push
+move
+250 300 0
+rotate
+y -30
+box
+-100 100 100 100 100 100
+pop
+push
+move
+0 175 0
+rotate
+y -30
+box
+0 0 0 100 100 100
+pop
+push
+move 
+85 175 0
+rotate
+y -30
+box
+0 0 0 100 100 100
+pop
+push
+move
+170 175 0
+rotate
+y -30
+box
+0 0 0 100 100 100
+pop
+push
+move
+255 175 0
+rotate
+y -30
+box
+0 0 0 100 100 100
+pop
+push
+move
+340 175 0
+rotate
+y -30
+box
+0 0 0 100 100 100
+pop
+push
+move
+170 225 0
+rotate
+y 60
+sphere
+0 0 0 50
+pop
+push
+move
+170 450 0
+rotate
+x 90
+rotate
+z 30
+torus
+0 0 0 10 20 10
+pop
+
+display
+save
+marIO.png
